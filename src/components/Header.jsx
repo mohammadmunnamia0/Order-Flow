@@ -31,7 +31,7 @@ export default function Header({ onToggleSidebar }) {
 
   const getTitle = () => {
     if (location.pathname.startsWith("/orders/")) return "Order Details";
-    return pageTitles[location.pathname] || "ORDERFLOW";
+    return pageTitles[location.pathname] || "Order Flow";
   };
 
   return (

@@ -1,6 +1,6 @@
 // ORDERFLOW service worker — makes the app installable and usable offline.
 // App data lives in localStorage, so only the static app shell is cached here.
-const CACHE = "orderflow-v1";
+const CACHE = "orderflow-v2";
 const SHELL = ["/", "/index.html", "/manifest.webmanifest", "/icon.svg", "/icon-192.png", "/icon-512.png"];
 
 self.addEventListener("install", (event) => {

@@ -1,6 +1,6 @@
-# ORDERFLOW – Inventory & Order Management
+# Order Flow – Inventory & Order Management
 
-**Live demo:** <https://order-flow-dusky.vercel.app>
+**Live demo:** <https://order-flow-scm.vercel.app>
 
 A single-codebase React + Vite app for managing products, inventory, customers,
 orders, fulfillment, stock reconciliation and users. It runs entirely in the browser:
@@ -21,7 +21,10 @@ Other scripts: `npm run build` (production build to `dist/`), `npm run preview`.
 
 ### Demo accounts
 
-All demo accounts use the password `password123`. The login page has one-click buttons to fill them in.
+All demo accounts use the password `password123`. The login page opens on four role cards. Pick one
+to get a sign-in form already filled with that role's demo email and password, which are also shown
+below the form with copy buttons. Choosing a card only fills in the form: you still sign in the
+normal way, and a wrong password is still rejected.
 
 | Role      | Email                   | Access                                            |
 |-----------|-------------------------|---------------------------------------------------|
@@ -91,7 +94,8 @@ src/
   pages/                Dashboard, Products, Inventory, Customers, Orders,
                         OrderDetail, Fulfillment, Reconciliation, StockMovements,
                         Users, Login, Register
-public/                 PWA manifest, service worker, icons
+public/                 PWA manifest, service worker, icons, login background
+                        (port photo by Ruchindra Gunasekara on Unsplash, Unsplash License)
 vercel.json             Vercel build + routing config
 ```
 

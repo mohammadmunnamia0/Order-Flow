@@ -45,7 +45,7 @@ export default function Sidebar({ isOpen, onClose }) {
         ))}
       </nav>
       <div className="sidebar-footer">
-        ORDERFLOW v1.0 &copy; 2026
+        Order Flow v1.0 &copy; 2026
       </div>
     </aside>
   );

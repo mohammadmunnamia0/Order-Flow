@@ -1,6 +1,6 @@
 {
-  "name": "ORDERFLOW – Inventory & Order Management",
-  "short_name": "ORDERFLOW",
+  "name": "Order Flow – Inventory & Order Management",
+  "short_name": "Order Flow",
   "description": "Inventory, order, fulfillment and stock management that runs entirely in your browser.",
   "id": "/",
   "start_url": "/",

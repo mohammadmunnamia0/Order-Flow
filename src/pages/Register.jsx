@@ -28,7 +28,7 @@ export default function Register() {
           <FiBox size={40} color="#4f46e5" />
         </div>
         <h1>Create Account</h1>
-        <p className="subtitle">Join ORDERFLOW</p>
+        <p className="subtitle">Join Order Flow</p>
         <form onSubmit={handleSubmit}>
           <div className="form-group">
             <label>Full Name</label>
