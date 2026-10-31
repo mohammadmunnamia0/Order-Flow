@@ -1,5 +1,7 @@
 # ORDERFLOW – Inventory & Order Management
 
+**Live demo:** <https://order-flow-dusky.vercel.app>
+
 A single-codebase React + Vite app for managing products, inventory, customers,
 orders, fulfillment, stock reconciliation and users. It runs entirely in the browser:
 no backend server, no database and no environment variables.
